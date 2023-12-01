@@ -1,2 +1,4 @@
 # mojo_aoc_23
-Focus on mojo-python interactivity
+# Day 1
+- ```01.mojo```
+mojo-python interactivity approach (PythonObject,Python.evaluate)
