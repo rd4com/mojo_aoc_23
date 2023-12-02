@@ -40,7 +40,6 @@ fn main() raises:
     var int_conversion = Python.evaluate("int")
     var all_games_py = PythonObject(all_games).split("\n")
     var structured_games = DynamicVector[game_structure]()
-    var game_id = 0
     
     for game in all_games_py:
         var splitted = game.split(":")
@@ -54,7 +53,6 @@ fn main() raises:
                 let color:String = color_amount_tuple[2].to_string()
                 structured_game.showed_amount_of_colored_cube(color,amount)
         structured_games.push_back(structured_game)
-        game_id+=1
 
     let elf_request = game_structure(12,13,14)
     print(result_elf_request(structured_games,elf_request))
