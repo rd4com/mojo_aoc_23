@@ -1,8 +1,8 @@
 # mojo_aoc_23
-# Day 1
+# 🌅1️⃣
 - ```01.mojo``` [V0.5]
 mojo-python interactivity approach (PythonObject,Python.evaluate)
-# Day 2
+# 🌅2️⃣ 
 - ```02.mojo```[V0.5]
   - Register passable game struct
   - game: ```DynamicVector[game_structure]()```
