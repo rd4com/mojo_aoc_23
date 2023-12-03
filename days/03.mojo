@@ -23,9 +23,14 @@ def main():
         number = PythonObject("")
         x = 0
         for c in l:
+            number_complete = True
             if c.isdigit():
                 number = number+c
-            else:
+                number_complete = False
+                if x == (py_len(l)-1):
+                    number_complete = True #in case it is last c
+            
+            if number_complete:
                 if py_len(number)>0:
                     array.push_back(Number(py_to_int(py_int(number)),x-py_len(number),x-1,row))
                 number = PythonObject("")
