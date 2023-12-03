@@ -7,3 +7,7 @@ mojo-python interactivity approach (PythonObject,Python.evaluate)
   - Register passable game struct
   - game: ```DynamicVector[game_structure]()```
   - PythonObject for utilities: ```var splitted = line.split(":")```
+# 🌅3️⃣
+- ```03.mojo```[V0.5]
+  - Register passable struct
+  - PythonObject
